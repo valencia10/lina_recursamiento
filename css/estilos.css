@@ -23,7 +23,34 @@
 
 
 */
+body,h1,h1,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
 body {
     font-family: "Helvetica Neue", "Helvetica", "sans-serif";
+}
+
+#encabezado {}
+
+/* aplica a las etiquetas que tienen atributo class="titulos" y que son hijas der otra que tiene id="encabezado" */
+#enabezado>.titulos {}
+
+#barnav {}
+
+#principal {}
+
+#nota-importante {}
+
+#notas-secundarias {}
+
+#notas-secundarias>article>.introduccion {}
+
+#notas-secundarias>article>.leer-mas {}
+
+.container {
+    width: 960px;
+    margin: auto;
 }

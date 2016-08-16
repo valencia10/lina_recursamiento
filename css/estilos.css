@@ -1,5 +1,29 @@
 /*Hoja de estilos para proyecto web*/
 
+/*
+      Hoja de estilos de CSS
+      // sintaxis de CSS
+      selector {
+          propiedad: valor;
+          propiedad: valor;
+          propiedad: valor;
+      }
+      selector { propiedad: valor; }
+      // 3 Tipos de selectores
+      
+      // 1.- Tipo etiqueta HTML
+      body {  margin: o; }
+
+      //2.- Tipo clase (inician con un punto)
+      .negrita { font-weight: bold; }
+
+      //3.- Tipo id (inician con #)
+      #titulo-principal { font-size: 2em; }
+
+
+
+*/
+
 body {
     font-family: "Helvetica Neue", "Helvetica", "sans-serif";
 }
